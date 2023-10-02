@@ -35,9 +35,3 @@ module.exports = { readFromFile, writeToFile, readAndAppend };
 
 //copied this subroutine from Stu_Mini_Project for this chapter... thanks for sharing :)
 
-
-
-module.exports = () =>
-  Math.floor((1 + Math.random()) * 0x10000)
-    .toString(16)
-    .substring(1);
